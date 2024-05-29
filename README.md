@@ -14,6 +14,7 @@ Before running the script, ensure you have the following:
 2. **FOSSA API Key**: You need an API key from FOSSA to access their API.
 3. **GitHub Token**: A GitHub personal access token with appropriate permissions to submit dependencies to your repository.
 4. **Python Packages**: The script requires `requests` and `python-dotenv` packages. You can install these using pip.
+5. **FOSSA CLI**: Ensure you have the CLI installed as well.
 
 ## Setup
 
@@ -57,11 +58,17 @@ pip install requests python-dotenv
 ```
 
 #### Usage
+
+Run FOSSA analysis on the Podfile
+```sh
+fossa analyze --fossa-api-key <your access token>
+fossa test --fossa-api-key <your access token>
+```
+
 Run the script using Python:
 
 ```sh
-
-python submit_dependencies.py
+python3 submit_dependencies.py
 ```
 
 This script will:
