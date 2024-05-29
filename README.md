@@ -1,6 +1,6 @@
-# Dependency Submission Script
+# FOSSA to GitHub Dependency Submission Script
 
-This repository contains a Python script that fetches dependencies from the FOSSA API and submits them to the GitHub Dependency Submission API. This is useful for keeping your project's dependency graph up to date on GitHub.
+This repository contains a Python script that fetches cocoapods dependencies from the FOSSA API and submits them to the GitHub Dependency Submission API. This is useful for keeping your project's dependency graph up to date on GitHub.
 
 ## Purpose
 
