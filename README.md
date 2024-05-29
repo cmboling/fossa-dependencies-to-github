@@ -83,3 +83,7 @@ If you encounter any issues, ensure the following:
 - The environment variables in the .env file are correctly set.
 - You have installed the required Python packages.
 - You are using Python 3.6 or newer.
+
+## References
+- [GitHub Dependency Submission](https://docs.github.com/en/rest/dependency-graph/dependency-submission?apiVersion=2022-11-28)
+- [FOSSA's Dependencies API](https://docs.fossa.com/reference/getprojectdependencies)
